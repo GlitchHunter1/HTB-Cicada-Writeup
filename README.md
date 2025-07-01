@@ -1,8 +1,7 @@
 # HTB-Cicada-Writeup
 Cicada is an easy-difficult Windows machine that focuses on beginner Active Directory enumeration and exploitation. In this machine, players will enumerate the domain, identify users, navigate shares, uncover plaintext passwords stored in files, execute a password spray, and use the `SeBackupPrivilege` to achieve full system compromise.
 
-```![Cicada](https://github.com/user-attachments/assets/bf7be9fe-a72f-4af5-bb1b-62c72c457f61)
-
+![](./cicada.png)
 `Nmap Scan`
 
 
