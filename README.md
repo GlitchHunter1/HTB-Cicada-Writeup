@@ -4,7 +4,7 @@ Cicada is an easy-difficult Windows machine that focuses on beginner Active Dire
 ![](./cicada.png)
 `Nmap Scan`
 
-
+```
 nmap 10.10.11.35 -T4 -oN nmap
 Starting Nmap 7.95 ( https://nmap.org ) at 2025-07-01 03:57 EDT
 Nmap scan report for 10.10.11.35
@@ -25,9 +25,6 @@ PORT     STATE SERVICE
 5985/tcp open  wsman
 
 ```
-
-
-
 `SMB Shares Enum`
 ```
 smbclient -L //10.10.11.35
